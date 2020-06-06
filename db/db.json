@@ -1,0 +1,100 @@
+{
+  "users": [
+    {
+      "name": "admin",
+      "email": "admin@abv.com",
+      "password": "12345",
+      "age": "12",
+      "errorMessage": "",
+      "isActive": true,
+      "isAdmin": true,
+      "picture": "https://picsum.photos/200/300?random=1",
+      "id": 1
+    },
+    {
+      "name": "go6o",
+      "age": "20",
+      "email": "gosho@abv.bg",
+      "password": "12345",
+      "isAdmin": true,
+      "isActive": true,
+      "picture": "https://picsum.photos/200/300?random=1",
+      "id": 2
+    },
+    {
+      "name": "ivan",
+      "email": "ivan@abv.bg",
+      "password": "12345",
+      "age": "17",
+      "errorMessage": "",
+      "isActive": true,
+      "isAdmin": false,
+      "picture": "https://picsum.photos/200/300?random=1",
+      "id": 3
+    },
+    {
+      "name": "petar",
+      "email": "petar@abv.bg",
+      "password": "12345",
+      "age": "30",
+      "errorMessage": "",
+      "isActive": true,
+      "isAdmin": false,
+      "picture": "https://picsum.photos/200/300?random=1",
+      "id": 4
+    },
+    {
+      "name": "hakera",
+      "email": "xxhakeraxx@abv.bg",
+      "password": "12345",
+      "age": "8",
+      "errorMessage": "",
+      "isActive": true,
+      "isAdmin": false,
+      "picture": "https://picsum.photos/200/300?random=1",
+      "id": 5
+    }
+  ],
+  "notes": [
+    {
+      "title": "test task 1",
+      "content": "gfdgdfg",
+      "authorId": 2,
+      "authorName": "go6o",
+      "date": "2020-06-06T15:41:56.804Z",
+      "evaluation": "1",
+      "isCompleted": true,
+      "id": 1
+    },
+    {
+      "title": "Task 1",
+      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc aliquet eros vitae pharetra feugiat. Fusce auctor, sapien et bibendum lacinia, metus dui facilisis mauris, quis posuere augue tortor a tellus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. ",
+      "authorId": 1,
+      "authorName": "admin",
+      "date": "2020-06-06T16:13:23.107Z",
+      "evaluation": "3",
+      "isCompleted": false,
+      "id": 2
+    },
+    {
+      "title": "Task 2",
+      "content": "Morbi laoreet condimentum pharetra. Aenean non sapien vulputate, convallis libero at, iaculis lorem. Sed lobortis volutpat arcu sed finibus. Ut in pulvinar ex. Nunc pellentesque orci ac ullamcorper ultrices. Pellentesque eget accumsan dui. Mauris sollicitudin nulla nec dolor aliquam posuere.\n\nNulla tellus orci, ullamcorp",
+      "authorId": 1,
+      "authorName": "admin",
+      "date": "2020-06-06T16:14:05.483Z",
+      "evaluation": "14",
+      "isCompleted": false,
+      "id": 3
+    },
+    {
+      "title": "test task 2",
+      "content": "Aliquam fermentum malesuada consectetur. Donec ut convallis massa, id imperdiet mi. Sed et congue libero. Ut aliquet efficitur elit. Integer tincidunt ante sapien, vel interdum libero commodo eget. Integer vitae libero vel lorem commodo viverra nec nec magna. ",
+      "authorId": 3,
+      "authorName": "ivan",
+      "date": "2020-06-06T16:15:54.900Z",
+      "evaluation": "6",
+      "isCompleted": true,
+      "id": 4
+    }
+  ]
+}
